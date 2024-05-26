@@ -1,0 +1,46 @@
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/003/500/407/large_2x/hand-is-holding-black-with-yellow-color-clap-board-or-movie-slate-use-in-video-production-and-movie-industry-on-black-background-free-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.category-info, .author-info {
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffc800;
+    border-radius: 5px;
+    margin: 5px;
+    width: 30%;
+    min-width: 200px;
+}
+
+.description-container {
+    margin: 12px;
+    padding: 12px;
+    align-items: center;
+    background-color: #ffc800;
+    border-radius: 5px;
+    max-width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    min-width: 200px;
+}
+
+.description-container p {
+    text-align: justify;
+    padding: 0 15px;
+}
+
+.container {
+    padding-bottom: 50px; /* Adjust value based on your specific needs */
+}
